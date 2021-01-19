@@ -14,6 +14,6 @@ Funcionalidade: Consulta de CEP
         Então recebo o seguinte retorno: "<ibge_saida>" <tipo>
 
         Exemplos:
-            | tipo     | cep_entrada | ibge_saida | erro_saida |
-            | positivo | 09691200    | 3548708    |            |
-            | negativo | 11111111    |            | true       |
+            | tipo     | cep_entrada | ibge_saida |
+            | positivo | 09691200    | 3548708    |
+            | negativo | 11111111    |            |
